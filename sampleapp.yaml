@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mysampleservice
-          image: mycluster.icp:8500/default/sampleapp1007:latest
+          image: mycluster.icp:8500/default/sampleapp:$BUILD_NUMBER
           imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 9080
