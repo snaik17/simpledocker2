@@ -17,8 +17,6 @@ spec:
           imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 9080
-      imagepullSecrets:
-       - name: credentials-for-project-refarchcloudnativebluecomputemicroclimate
 ---
 apiVersion: v1
 kind: Service
